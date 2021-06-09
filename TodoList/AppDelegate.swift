@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  TodoListMVVM
+//  TodoList
 //
 //  Created by Khalid Aqeeli on 08/06/2021.
 //

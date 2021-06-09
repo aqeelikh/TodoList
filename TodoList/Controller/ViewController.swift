@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  TodoListMVVM
+//  TodoList
 //
 //  Created by Khalid Aqeeli on 08/06/2021.
 //
@@ -128,7 +128,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     
     func setupUI(){
-        title = "MVVM To Do List"
+        title = "To Do List"
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self , action: #selector(didTapAdd))
     }
     

@@ -1,6 +1,6 @@
 //
-//  TodoListMVVMTests.swift
-//  TodoListMVVMTests
+//  TodoListTests.swift
+//  TodoListTests
 //
 //  Created by Khalid Aqeeli on 08/06/2021.
 //
