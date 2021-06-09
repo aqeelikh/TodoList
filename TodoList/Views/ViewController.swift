@@ -12,10 +12,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     // To access itemTableViewModel
     let viewModel = ItemTableViewModel()
     
-    // var todoListArray = [TodoListItem]()
-    
-    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-    
     @IBOutlet weak var todoTableView: UITableView!
     
     override func viewDidLoad() {
