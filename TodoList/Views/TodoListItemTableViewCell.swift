@@ -17,10 +17,10 @@ class TodoListItemTableViewCell: UITableViewCell {
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
     var item : TodoListItem! {
-            didSet {
-                btnFlag.isSelected = item.isCompleted
-            }
+        didSet {
+            btnFlag.isSelected = item.isCompleted
         }
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
