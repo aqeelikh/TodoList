@@ -32,7 +32,6 @@ class ItemTableViewModel {
         do {
             todoListArray = try context.fetch(TodoListItem.fetchRequest())
             self.delegate?.didFinishUpdates(finished: true)
-            print("TESTSTST")
         }
         catch {
             //Handle error
