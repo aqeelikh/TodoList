@@ -3,6 +3,8 @@ A simple todo list
 
 > Todo List app allows users to organize thier tasks, and track which task is done.
 
+The purpose of this project is to show the difference between MVC and MVVM. By migrating a TODO app from MVC to MVVM.
+
 
 # MVVM TODO App
 
@@ -15,6 +17,8 @@ Model–view–viewmodel (MVVM) is a software architectural pattern that facilit
 
 # Screenshot
 
-![](screenshots/todo_list.png)
-![](screenshots/add_todo_item.png)
-![](screenshots/edit_todo_item.png)
+<img src="screenshots/todo_list.png" width="200">
+<img src="screenshots/add_todo_item.png" width="200">
+<img src="screenshots/edit_todo_item.png" width="200">
+
+
