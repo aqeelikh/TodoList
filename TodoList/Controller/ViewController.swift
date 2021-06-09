@@ -22,7 +22,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         todoTableView.dataSource = self
         todoTableView.register(UINib(nibName: "TodoListItemTableViewCell", bundle: nil), forCellReuseIdentifier: "TodoListItemTableViewCell")
         setupUI()
-        getAllItems()
+        getItems()
     }
     
     // UITAbleView
@@ -74,7 +74,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     //CoreDate
     
-    func getAllItems(){
+    func getItems(){
         do {
             todoListArray = try context.fetch(TodoListItem.fetchRequest())
             DispatchQueue.main.async {
@@ -95,7 +95,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         do {
             try context.save()
-            getAllItems()
+            getItems()
         }
         catch {
             //Handle error
@@ -107,7 +107,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
         do {
             try context.save()
-            getAllItems()
+            getItems()
         }
         catch {
             //Handle error
@@ -119,7 +119,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         do {
             try context.save()
-            getAllItems()
+            getItems()
         }
         catch {
             //Handle error
